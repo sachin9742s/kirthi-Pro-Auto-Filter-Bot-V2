@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @sachin_official_admin
+# (c) @AlbertEinsteinTG
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/KicchaRequest"
+                                    'Developers', url="https://t.me/CrazyBotsz"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/KicchaRequest'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/ROCKHDMOVIES2021')
+        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/KicchaRequest')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
